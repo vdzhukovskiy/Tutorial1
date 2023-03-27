@@ -35,7 +35,7 @@ Game::Game(QWidget * parent): QGraphicsView(parent) {
 
     QTimer * timer = new QTimer;
     QObject::connect(timer,SIGNAL(timeout()),player,SLOT(spawn()));
-    timer->start(2000);
+    timer->start(1500);
 }
 
 
